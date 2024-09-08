@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div_main">
+        <div class="uppercot">
+                <div class="screen"><h1>0</h1></div>
+        </div>
+        <div class="butoon">
+            <div class="grid">
+                <button class="calc_button" onclick=addElement(1)>1</button>
+                <button class="calc_button" onclick=addElement(2)>2</button>
+                <button class="calc_button" onclick=addElement(3)>3</button>
+                <button class="mini_calc_button" onclick="addElement('+')">+</button>
+                <button class="calc_button" onclick=addElement(4)>4</button>
+                <button class="calc_button" onclick=addElement(5)>5</button>
+                <button class="calc_button" onclick=addElement(6)>6</button>
+                <button class="mini_calc_button" onclick="addElement('-')">-</button>
+                <button class="calc_button" onclick=addElement(7)>7</button>
+                <button class="calc_button" onclick=addElement(8)>8</button>
+                <button class="calc_button" onclick=addElement(9)>9</button>
+                <button class="mini_calc_button" onclick="addElement('x')">x</button>
+                <button class="calc_button" onclick=erase()>AC</button>
+                <button class="calc_button" onclick=addElement(0)>0</button>
+                <button class="calc_button" onclick="shampur()">=</button>
+                <button class="mini_calc_button" onclick="addElement(':')">:</button>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
